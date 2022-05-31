@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Magistral;
+    src: url(/Magistral/magistral/Magistral\ Regular.otf);
+}
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Magistral';
     background-color: #0b0f0d;
 }
 
@@ -66,6 +72,10 @@ img {
     position: absolute;
     top: 150px;
     z-index: 100;
+    background-image: url(/images/Group\ 5.png);
+    background-position: center;
+    background-size: contain;
+
 }
 
 .raffle {
@@ -75,7 +85,7 @@ img {
     flex-direction: column;
     top: 120px;
     width: 100%;
-    background: linear-gradient(90deg, rgb(0 0 0 / 79%) 0%, rgba(0, 0, 0, 0.005) 100%, rgba(255, 255, 255, 1) 100%);
+    /* background: linear-gradient(90deg, rgb(0 0 0 / 79%) 0%, rgba(0, 0, 0, 0.005) 100%, rgba(255, 255, 255, 1) 100%); */
     padding-top: 5rem !important;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
@@ -96,9 +106,13 @@ img {
 
 .enter {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    background: linear-gradient(359deg, rgb(67 133 104) 0%, rgba(0,0,0,0.04572251263786764) 100%);
+    /* background: linear-gradient(359deg, rgb(67 133 104) 0%, rgba(0,0,0,0.04572251263786764) 100%); */
     width: 90%;
     margin: 0 auto;
+    background-image: url(/images/Join\ Discord\ copy.png);
+    background-position: center;
+    background-size: contain;
+    
 }
 
 .enter:hover {
@@ -127,4 +141,12 @@ span a {
 
 span img {
     width: 100px;
+}
+
+#discord {
+    width: 70px;
+}
+
+.join-our {
+    gap: 35px;
 }
