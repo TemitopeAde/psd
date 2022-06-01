@@ -1,65 +1,7 @@
-@media only screen and (max-width: 600px) {
-    .section-two {
-        margin-top: 24rem;
-    }
-
-    .mt-5 .d-flex {
-        flex-direction: column-reverse;
-    }
-
-    .image-text {
-        top: 5px;
-        font-weight: 600;
-        font-size: 17px;
-        right: 30%;
-    }
-    .crypto {
-        top: 340px;
-        text-align: center;
-    }
-
-    .enter a, span a {
-        font-size: 1.5rem;
-    }
-    .raffle {
-        top: 350px;
-        text-align: center;
-        font-size: 1.9rem;
-        padding: 3rem 0;
-        margin-top: 1.3rem;
-        font-weight: bolder;
-        margin-top: 21px;
-    }
-
-    .raf-1 {
-        font-size: 2rem;
+@media only screen and (max-width: 390px) {
+    .nav span:nth-child(2) {
+        color: #64003c;
+        font-size: 1.4rem;
     }
 }
-
-
-@media only screen and (max-width: 425px) {
     
-    .image-text {
-        font-size: 14px;
-        right: 30%;
-    }
-
-    .section-two {
-        margin-top: 19rem;
-    }
-
-    .crypto {
-        top: 260px;
-    }
-
-    .raffle {
-        top: 280px;
-    }
-}
-
-
-@media only screen and (max-width: 360px) {
-    .section-two {
-        margin-top: 18rem;
-    }
-}

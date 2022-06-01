@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Magistral;
+    src: url(/Magistral/magistral/Magistral\ Regular.otf);
+}
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Magistral';
+    background-color: #010202;
+    text-align: center;
+}
+
+p, a {
+    color: #87bfa7;
+    text-decoration: none;
+}
+
+.nav {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    font-weight: 600;
+}
+.container .header {    
+    background-image: url(/images/header.png);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.nav span:nth-child(1) {
+    color: #2d352a;
+    font-size: 1.7rem
+}
+
+.nav span:nth-child(2) {
+    color: #64003c;
+    font-size: 1.7rem;
+}
+
+.container .header span:nth-child(2) {
+    margin-left: 44px;
+}
+
+
+.launch-text p{
+    background-image: url(/images/Group\ 5.png);
+    padding: 1rem;
+    background-position: center;
+    background-size: cover;
+    font-size: 1.4rem;
+}
+
+.section .jackpot {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.enter-app a{
+    margin-top: 1rem;
+    background-image: url(/images/Join\ Discord\ copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    padding: 1.5rem;
+}
+
+.section.logo {
+    display: flex;
+    row-gap: 5px;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.logo img {
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
