@@ -25,16 +25,17 @@ p, a {
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
-    display: flex;
-    flex-direction: column;
-    margin-top: 3rem;
-    font-weight: 600;
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: -19rem;
+    font-weight: bolder;
 }
-.container .header {    
-    background-image: url(/images/header.png);
-    background-position: center;
-    background-size: cover;
-    height: 60vh;
+
+.image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
     width: 100%;
 }
 
@@ -86,7 +87,9 @@ p, a {
 .logo img {
     width: 60px;
 }
-
+.division {
+    
+}
 
 
 
