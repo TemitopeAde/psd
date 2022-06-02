@@ -13,6 +13,7 @@
 body {
     font-family: 'Magistral';
     background-color: #010202;
+    /* background-image: url(/images/Background.png); */
     text-align: center;
 }
 
@@ -54,7 +55,7 @@ p, a {
 
 .launch-text p{
     background-image: url(/images/Group\ 5.png);
-    padding: 1rem;
+    padding: 1rem 0;
     background-position: center;
     background-size: cover;
     font-size: 1.4rem;
@@ -74,7 +75,7 @@ p, a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
+    padding: 3rem 0;
 }
 
 .section.logo {
@@ -88,7 +89,9 @@ p, a {
     width: 60px;
 }
 
-
+.division {
+    margin-top: 20rem;
+}
 
 
 

@@ -85,7 +85,7 @@ img {
     flex-direction: column;
     top: 120px;
     width: 100%;
-    /* background: linear-gradient(90deg, rgb(0 0 0 / 79%) 0%, rgba(0, 0, 0, 0.005) 100%, rgba(255, 255, 255, 1) 100%); */
+    background: linear-gradient(90deg, rgb(0 0 0 / 79%) 0%, rgba(0, 0, 0, 0.005) 100%, rgba(255, 255, 255, 1) 100%);
     padding-top: 5rem !important;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
