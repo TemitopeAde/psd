@@ -12,8 +12,8 @@
 
 body {
     font-family: 'Magistral';
-    background-color: #010202;
-    /* background-image: url(/images/Background.png); */
+    /* background-color: #010202; */
+    background-image: url(/images/Background.png);
     text-align: center;
 }
 

@@ -1,6 +1,3 @@
-
-
-
 @media only screen and (min-width: 768px) {
     .image img {
         width: inherit;
@@ -64,6 +61,10 @@
         padding-left: 19px;
     }
 
+    .division {
+        padding: 1.5rem !important;
+    }
+
 }
 
 
@@ -80,12 +81,9 @@
 
 
 @media only screen and (min-width: 1024px) {
-    /* .header {
-        height: 50vh;
-        background: radial-gradient(circle, rgba(194,216,204,1) 0%, rgb(1, 2, 2) 100%)
-    } */
+   
     .division {
-        margin-top: 35rem;
+        margin-top: 26rem;
     }
 
     .nav {
@@ -100,6 +98,23 @@
 
     .section.logo {
         padding-bottom: 3rem;
+    }
+
+    #image {
+        width: -webkit-fill-available;
+        height: 385px; 
+        width: 694px;
+    }
+
+    .nav span:nth-child(1) {
+        font-size: 2.4rem;
+    }
+    .nav span:nth-child(2) {
+        font-size: 2.4rem;
+    }
+
+    .nav {
+        top: 1.4rem;
     }
 
 }

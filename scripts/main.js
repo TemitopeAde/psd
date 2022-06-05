@@ -2,7 +2,7 @@ var img = document.getElementById('image');
 var width = window.innerWidth;
 
 if (width => 768) {
-    img.style.display = 'block';
+    // img.style.display = 'block';
     img.src = "/images/new.png";
     console.log(width)
 }
